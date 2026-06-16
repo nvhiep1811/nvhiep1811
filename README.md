@@ -2,7 +2,7 @@
 
 **Java Backend Developer | Spring Boot | E-commerce Systems**
 
-[LinkedIn](https://www.linkedin.com/in/ng-vo-hiep) · [GitHub](https://github.com/nvhiep1811) · [Email](mailto:22707701.hiep@student.iuh.edu.vn)
+[LinkedIn](https://www.linkedin.com/in/ng-vo-hiep) · [Email](mailto:22707701.hiep@student.iuh.edu.vn)
 
 ## About Me
 
@@ -37,7 +37,7 @@ I enjoy building secure APIs, reliable checkout workflows, event-driven systems,
 
 ### Cloud and DevOps
 
-`Docker` `AWS ECR` `AWS ECS` `Amazon S3` `CloudFront` `GitLab CI/CD` `Jenkins` `Git` `GitHub`
+`Docker` `AWS ECR` `AWS ECS` `Amazon S3` `CloudFront` `GitLab CI/CD` `Git` `GitHub`
 
 ### Tools
 
@@ -61,7 +61,7 @@ A service-based e-commerce backend and mobile application designed around reliab
 - Served private media through Amazon S3 and CloudFront
 - Configured GitLab CI/CD and Jenkins deployment pipelines
 
-**Tech Stack:** Java 17, Spring Boot 3.3, Spring Cloud Gateway, PostgreSQL, Redis, Kafka, Debezium, Docker, AWS
+**Tech Stack:** Java, Spring Boot, Spring Cloud Gateway, PostgreSQL, Redis, Kafka, Debezium, Docker, AWS
 
 ---
 
