@@ -1,119 +1,147 @@
 # Hi, I'm Nguyen Vo Hiep 👋
 
-**Java Backend Developer | Spring Boot | E-commerce Systems**
+**Backend Developer | Java, Spring Boot & TypeScript | Cloud and Distributed Systems**
 
-[LinkedIn](https://www.linkedin.com/in/ng-vo-hiep) · [Email](mailto:22707701.hiep@student.iuh.edu.vn)
+[LinkedIn](https://www.linkedin.com/in/ng-vo-hiep) · [Email](mailto:22707701.hiep@student.iuh.edu.vn) · [GitHub](https://github.com/nvhiep1811)
 
 ## About Me
 
-I am a Software Engineering student at the **Industrial University of Ho Chi Minh City**, focusing on backend development with **Java and Spring Boot**.
+I am a Software Engineering student at the **Industrial University of Ho Chi Minh City** with project-based experience across backend development, full-stack web applications, mobile applications, cloud integration, and software architecture.
 
-I enjoy building secure APIs, reliable checkout workflows, event-driven systems, and maintainable service-based architectures. My main projects are e-commerce platforms that combine authentication, catalog, cart, order, inventory, payment, messaging, caching, cloud deployment, and CI/CD.
+My primary direction is backend engineering with Java and Spring Boot. I have also built applications with TypeScript, Node.js, NestJS, React, Next.js, React Native, and Expo. Through academic and personal projects, I have worked with authentication and authorization, relational databases, caching, messaging, event-driven workflows, containerization, cloud services, CI/CD, and production-readiness practices.
 
-- Building secure backend systems with Spring Security, JWT, OAuth2, and role-based authorization
-- Developing e-commerce workflows for catalog, cart, checkout, order, inventory, and payment
-- Working with Redis, Kafka, Debezium, Outbox, idempotency, retries, and circuit breakers
-- Deploying containerized services with Docker and AWS
-- Improving system design, observability, database performance, and distributed-system reliability
-- Open to Backend Developer internships and entry-level opportunities
+- Build RESTful APIs and backend services with Java, Spring Boot, Node.js, and NestJS
+- Implement authentication and authorization with Spring Security, JWT, OAuth2, and RBAC
+- Work with relational databases, caching, messaging, and reliable event delivery
+- Explore service-based, microservices, event-driven, and space-based architecture concepts
+- Containerize and deploy applications using Docker and AWS services
+- Develop supporting web and mobile clients with React, Next.js, React Native, and Expo
+- Open to Backend Developer internships and entry-level software engineering opportunities
 
-## Core Skills
+## Technical Skills
 
 ### Languages
 
-`Java` `SQL` `JavaScript` `TypeScript`
+`Java` `TypeScript` `JavaScript` `SQL`
 
-### Backend
+### Backend and Security
 
-`Spring Boot` `Spring MVC` `Spring Security` `Spring Data JPA` `Hibernate` `RESTful APIs` `JWT` `OAuth2`
+`Spring Boot` `Spring Security` `Spring Data JPA` `Hibernate` `Node.js` `NestJS` `Express.js` `RESTful APIs` `JWT` `OAuth2` `RBAC`
 
-### Databases, Cache, and Messaging
+### Data and Messaging
 
-`PostgreSQL` `MySQL` `Redis` `Apache Kafka` `Debezium`
+`PostgreSQL` `MySQL` `Redis` `SQLite` `Supabase` `Apache Kafka` `Debezium`
 
-### Architecture
+### Architecture and Reliability
 
-`Service-Based Architecture` `API Gateway` `Orchestrator Pattern` `Strategy Pattern` `Outbox Pattern` `CQRS Fundamentals` `Resilience4j`
+`Service-Based Architecture` `Microservices` `Event-Driven Systems` `API Gateway` `Outbox Pattern` `CQRS Fundamentals` `Resilience4j` `Idempotency` `Retry` `Circuit Breaker` `Bulkhead`
+
+### Frontend and Mobile
+
+`React` `Next.js` `React Native` `Expo` `Tailwind CSS`
 
 ### Cloud and DevOps
 
-`Docker` `AWS ECR` `AWS ECS` `Amazon S3` `CloudFront` `GitLab CI/CD` `Git` `GitHub`
+`Docker` `AWS ECR` `AWS ECS` `Amazon S3` `CloudFront` `GitLab CI/CD` `Jenkins` `Vercel` `Railway`
 
 ### Tools
 
-`Postman` `IntelliJ IDEA` `VS Code` `Maven`
+`Git` `GitHub` `Maven` `Postman` `IntelliJ IDEA` `VS Code`
 
 ## Featured Projects
 
 ### [Service-Based E-commerce Platform](https://github.com/nvhiep1811/ecommerce-system)
 
-A service-based e-commerce backend and mobile application designed around reliable checkout, payment, event-driven processing, and cloud deployment.
+A service-based platform with backend services, mobile and admin clients, payment integration, event-driven processing, and cloud deployment.
 
 **Highlights**
 
 - Built an API Gateway and domain services for authentication, catalog, commerce, chat, and assistant features
-- Implemented an idempotent checkout orchestrator for validation, coupon processing, inventory reservation, order creation, and payment initialization
-- Integrated SePay QR and checkout payments with webhook handling and payment-expiration workflows
+- Implemented an idempotent workflow orchestrator for validation, inventory reservation, order creation, and payment initialization
+- Integrated SePay payments with webhook processing and expiration handling
 - Applied the Outbox Pattern with Debezium and Kafka for reliable event delivery
-- Added Redis caching, rate limiting, and delayed payment expiration
-- Applied retry, circuit breaker, and bulkhead patterns with Resilience4j
-- Containerized services with Docker and deployed images through AWS ECR and ECS
-- Served private media through Amazon S3 and CloudFront
+- Added Redis caching, rate limiting, retries, circuit breakers, bulkheads, health checks, and observability support
+- Containerized services with Docker and deployed workloads through AWS ECR and ECS
+- Managed media using Amazon S3 and CloudFront
 - Configured GitLab CI/CD and Jenkins deployment pipelines
 
-**Tech Stack:** Java, Spring Boot, Spring Cloud Gateway, PostgreSQL, Redis, Kafka, Debezium, Docker, AWS
+**Tech Stack:** Java 17, Spring Boot 3.3, Spring Cloud Gateway, PostgreSQL, Redis, Kafka, Debezium, Docker, AWS, React Native/Expo
 
 ---
 
-### [Security Equipment E-commerce Website](https://github.com/nvhiep1811/DHKTPM18CTT_Nhom02_WebsiteBanThietBiAnNinhTrucTuyen)
+### [Security Equipment Platform](https://github.com/nvhiep1811/DHKTPM18CTT_Nhom02_WebsiteBanThietBiAnNinhTrucTuyen)
 
-An e-commerce platform for security equipment with authentication, product management, shopping cart, checkout, payment, review, and administration features.
+A full-stack web platform with secure authentication, catalog management, shopping workflows, payment-related modules, and administration features.
 
 **Highlights**
 
-- Developed RESTful APIs for products, carts, orders, discounts, payments, reviews, and users
+- Developed RESTful APIs for product, cart, order, discount, payment, review, and user modules
 - Implemented JWT authentication, role-based authorization, and Google/Facebook OAuth2 login
-- Used Redis-backed OAuth2 authorization request storage
-- Supported guest-cart merging after authentication
-- Built paginated product search and filtering by keyword, category, brand, price range, stock status, and active status
-- Improved checkout and discount handling using Spring Data JPA and Hibernate
-- Modeled relational entities with PostgreSQL and tested APIs using Postman
+- Used Redis-backed authorization request storage and supported guest-cart merging after login
+- Built paginated search and filtering by keyword, category, brand, price, stock, and status
+- Developed the frontend with React, TypeScript, Vite, and Tailwind CSS
 
-**Tech Stack:** Java, Spring Boot, Spring Security, JPA/Hibernate, PostgreSQL, Redis, JWT, OAuth2
+**Tech Stack:** Java, Spring Boot, Spring Security, JPA/Hibernate, PostgreSQL, Redis, JWT, OAuth2, React, TypeScript
+
+---
+
+### [MoneyTrack - Personal Expense Tracker](https://github.com/nvhiep1811/expense-tracker)
+
+A TypeScript full-stack application for personal finance management with secure authentication, reporting, caching, and database-level access control.
+
+**Highlights**
+
+- Built the frontend with Next.js, React, TypeScript, Tailwind CSS, React Query, and Zod
+- Developed backend modules using NestJS with JWT authentication, guards, rate limiting, caching, and security headers
+- Designed PostgreSQL schemas, views, indexes, audit logging, triggers, and Row Level Security through Supabase
+- Added transaction search, pagination, budgets, multi-account support, reports, and responsive dashboards
+
+**Tech Stack:** TypeScript, Next.js, React, NestJS, PostgreSQL, Supabase, JWT, Tailwind CSS
+
+## Additional Projects and Learning Repositories
+
+| Repository | Focus |
+|---|---|
+| [Software Architecture Labs](https://github.com/nvhiep1811/NguyenVoHiep_22707710_KTTKPM) | Monolithic, microservices, service-based, event-driven, hybrid, space-based architecture, API Gateway, and Resilience4j |
+| [New Technologies in Application Development](https://github.com/nvhiep1811/NguyenVoHiep_22707710_NewTechnologiesInITApplicationDevelopment) | Node.js, Express.js, AWS S3, file upload, cloud integration, and supporting technology demos |
+| [Mobile Application Development](https://github.com/nvhiep1811/nguyenvohiep_22707701_laptrinhmobile) | React Native, Expo, TypeScript, SQLite, navigation, forms, and mobile CRUD applications |
+| [Software Design and Architecture Coursework](https://github.com/nvhiep1811/PTGDUD_22707701_NguyenVoHiep_DHKTPM18BTT) | Application design, implementation exercises, and software engineering coursework |
 
 ## Engineering Interests
 
-- Secure API design
-- Service-based and event-driven architecture
-- Reliable checkout and payment systems
-- Database modeling, indexing, and performance
-- Caching, rate limiting, and resilience patterns
-- Cloud deployment and CI/CD
-- Observability and production readiness
+- Backend API and service development
+- Authentication, authorization, and application security
+- Database modeling, indexing, transactions, and performance optimization
+- Distributed workflows, messaging, caching, and resilience
+- Software architecture and system design
+- Cloud deployment, CI/CD, monitoring, and production readiness
+- Cross-platform web and mobile application development
 
-## Currently Learning
+## Currently Improving
 
 - Advanced Spring Boot and Spring Cloud patterns
 - Distributed transactions and reliable messaging
-- CQRS and event-driven architecture
-- PostgreSQL query optimization and indexing
-- AWS architecture, monitoring, and cost optimization
-- Prometheus, Grafana, logs, metrics, and tracing
-- Backend testing, performance testing, and production hardening
+- CQRS, event-driven systems, and domain-oriented design
+- PostgreSQL performance and database reliability
+- AWS architecture, monitoring, security, and cost optimization
+- Automated testing, performance testing, observability, and production hardening
 
-## Open To
+## Education
 
-- Backend Developer internship opportunities
-- Entry-level Java Backend Developer roles
-- Collaboration on Spring Boot, e-commerce, cloud, and event-driven projects
+**Bachelor of Software Engineering**  
+Industrial University of Ho Chi Minh City  
+GPA: **3.69/4.0** · 10/2022 - Present
+
+## Certification
+
+**TOEIC Listening & Reading** - 650+/990 · 06/2025
 
 ## Contact
 
 - **LinkedIn:** [linkedin.com/in/ng-vo-hiep](https://www.linkedin.com/in/ng-vo-hiep)
-- **GitHub:** [github.com/nvhiep1811](https://github.com/nvhiep1811)
 - **Email:** [22707701.hiep@student.iuh.edu.vn](mailto:22707701.hiep@student.iuh.edu.vn)
 - **Location:** Ho Chi Minh City, Vietnam
 
 ---
 
-**Thanks for visiting my profile. Let's build secure, reliable, and maintainable backend systems.**
+**Thanks for visiting my profile. I am interested in opportunities to learn, contribute, and grow through real-world software development.**
